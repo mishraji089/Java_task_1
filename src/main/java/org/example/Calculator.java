@@ -1,9 +1,6 @@
 package org.example;
 
 import java.util.Scanner;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -23,7 +20,7 @@ public class Calculator {
                 choice = scanner.nextInt();
             } catch (Exception e) {
                 System.out.println("Invalid input. Please enter a number.");
-                scanner.nextLine(); // Clear invalid input
+                scanner.nextLine(); 
                 continue;
             }
 
